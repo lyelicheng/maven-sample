@@ -13,3 +13,13 @@ Use the dependency below to start the application with Tomcat server.
 **Notes**
 1. Make sure Maven is selected prior running this application
    - In the Preferences window > Build, Execution, Deployment > Build Tools > Maven > Maven home path > select Bundled (Maven 3) 
+
+## Build Docker Image
+```
+docker build -t maven-sample:latest .
+```
+
+## Run Docker Image
+```
+docker run --rm -it maven-sample:latest
+```
